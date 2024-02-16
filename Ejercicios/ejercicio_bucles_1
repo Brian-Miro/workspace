@@ -1,0 +1,9 @@
+numero = int(input("Introduce el número: "))
+multiplos = 0
+suma = 0
+print(f'M = {multiplos:2d}: S = {suma:2d}')
+
+while suma < numero:
+    multiplos += 3
+    suma += multiplos
+    print(f'M = {multiplos:2d}: S = {suma:2d}')
